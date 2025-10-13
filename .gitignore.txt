@@ -1,0 +1,14 @@
+# virtual env
+venv/
+.venv/
+*.sqlite
+
+# local secrets
+.env
+HGtoken.txt
+
+# cache and temp
+__pycache__/
+*.pyc
+test_db_connection
+test_ollama_local

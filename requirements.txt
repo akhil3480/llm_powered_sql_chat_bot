@@ -1,0 +1,9 @@
+# Core dependencies for Streamlit SQL Chatbot
+
+streamlit
+sqlalchemy
+pymysql
+pandas
+python-dotenv
+huggingface_hub
+openai
