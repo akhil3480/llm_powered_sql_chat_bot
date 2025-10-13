@@ -1,0 +1,19 @@
+# --- Virtual environments ---
+venv/
+.venv/
+
+# --- Databases ---
+*.sqlite
+data/*.sqlite
+
+# --- Local secrets ---
+.env
+HGtoken.txt
+
+# --- Cache and temp files ---
+__pycache__/
+*.pyc
+
+# --- Local test files ---
+test_db_connection.py
+test_ollama_local.py
