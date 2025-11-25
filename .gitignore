@@ -18,7 +18,7 @@ __pycache__/
 test_db_connection.py
 test_ollama_local.py
 
- NUL
+
         data/olist_customers_dataset.csv
         data/olist_geolocation_dataset.csv
         data/olist_order_items_dataset.csv
