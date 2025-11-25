@@ -109,7 +109,7 @@ The app can route prompts to any of the above models depending on user selection
 git clone https://github.com/akhil3480/llm_powered_sql_chat_bot
 cd llm_powered_sql_chat_bot
 
-### 2. Create and activate a virtual environment (recommended)
+### 2. Create and activate a virtual environment
 
 python -m venv .venv
 # Windows
@@ -120,16 +120,6 @@ source .venv/bin/activate
 ### 3. Install dependencies
 
 pip install -r requirements.txt
-
-### 4. (Optional) Configure `.env`
-
-DATABASE_URL=postgresql://user:pass@host:port/dbname
-HF_API_KEY=your_huggingface_key_here
-OLLAMA_BASE_URL=http://localhost:11434
-
-### 5. Run the app locally
-
-streamlit run unified_app.py
 
 ---
 
